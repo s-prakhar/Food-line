@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-line</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header>
+
+        <a class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a class="fas fa-heart"></a>
+            <a class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Hakka noodles with goodness of carrot, corn, snow peas, and more veggies</p>
+                        <a class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Crispy indian fried chicken is a twist on classic buttermilk fried chicken,flavored with spices</p>
+                        <a class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Ranch dressing, pizza dough, bacon, frank's red hot, shredded chicken</p>
+                        <a class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> our dishes </h3>
+        <h1 class="heading"> popular dishes </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye"></a>
+                <img src="images/dish-1.png" alt="">
+                <h3>Special Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹ 299</span>
+                <a class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye"></a>
+                <img src="images/dish-2.png" alt="">
+                <h3>Cutlet</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹ 349</span>
+                <a class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye"></a>
+                <img src="images/dish-3.png" alt="">
+                <h3>Chicken Tandoor</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹ 999</span>
+                <a class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye"></a>
+                <img src="images/dish-4.png" alt="">
+                <h3>Veg Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹ 299</span>
+                <a class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye"></a>
+                <img src="images/dish-5.png" alt="">
+                <h3>Brownie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹ 199</span>
+                <a class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye"></a>
+                <img src="images/dish-6.png" alt="">
+                <h3>Fried Chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₹ 399</span>
+                <a class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>Quality of Service, Food, Ambiance and Value of Money are the primary elements for choosing a restaurant. Mariano is one of the most exquisite fine-dinning restaurant in twin cities with a captivating view of Murree Hills, perfect ambiance
+                    and scrumptious food. Our team is always looking forward to provide you exceptional services and win your hearts out.</p>
+                <p>Food-line is a place for peace lovers where you can indulge yourself into enchanting bliss of colossal contours of Pines Golf Course and when you are done with golfing, eat at Food-line Restaurant , and chill and relax at Gold Fitness
+                    Club & Spa.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-rupee-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a class="btn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> today's special </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-1.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Non-veg Pizza</h3>
+                    <p>Jerked Chicken Pizza. Indulge in the mouth-watering flavours of spicy Jamaican jerk chicken chunks atop a cheesy pizza, baked to perfection!</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 299</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-2.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Non-veg Burger</h3>
+                    <p>Spread of cheese, chilli flakes placed in between layer of Meat breaded with bread crumbs deep fried, dressed with lettuce and Chipotle mayonnaise.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 249</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-3.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Soft Butter Roti</h3>
+                    <p>Soft, buttery rotis made the South African way. Perfect accompaniment to Indian curries.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 19</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-4.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chocolate Frost</h3>
+                    <p>Death by Chocolate Ice Cream features an ultra rich, thick, and creamy double chocolate custard-based ice cream with chocolate fudge swirled.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 89</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-5.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Fruti Donut</h3>
+                    <p>A small cake of sweetened dough fried in deep fat topped with healty fruits,perfect for desserts.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 149</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-6.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Sweet Pudding</h3>
+                    <p>Egg pudding recipe is such a delighting dish made up of eggs and milk. This drool worthy dish is loved by kids.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 199</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-7.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Juicy Concoction</h3>
+                    <p>Drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-8.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Oatmeal with fruits</h3>
+                    <p>Porridge made from milled, steel-cut, or rolled oat grains, <br><br>Chief chef's favourite</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-9.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Lemon Juice</h3>
+                    <p>Lemonade which is made by using lemon juice, water and sugar mixed in perfect proportion along with drinking soda, good after heavy meal.</p>
+                    <a class="btn">add to cart</a>
+                    <span class="price">₹ 79</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.jfif" alt="">
+                        <div class="user-info">
+                            <h3>Prakhar</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>“Affordably Priced” <br><br>This place knows how to satisfy their clients. Always with a super nice mindset. The food is affordably priced, always delicious and clean.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.jfif" alt="">
+                        <div class="user-info">
+                            <h3>Shivam</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>“Absolutely Delicious!!” <br><br>My wife and I had our Anniversary dinner at the Fairway last night. We sat outside on the terrace which was very pretty and private. Our waitress was wonderful and the food was absolutely delicious!!
+                        It could not have been more spectacular! We would highly recommend it to everyone!!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.jfif" alt="">
+                        <div class="user-info">
+                            <h3>Joy</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>“The Best Pizza Ever.” <br><br>The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying food from here. The best pizza ever.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-4.jfif" alt="">
+                        <div class="user-info">
+                            <h3>Satyam</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>“Breakfast will knock your slippers off” <br> <br>I had breakfast there this morning and dinner tonight. All were well beyond my expectations. Everything is so fresh. Best clam chowder I have ever had. Clams and linguine were out of
+                        this world. Breakfast will knock your slippers off.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how musch</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a>india</a>
+                <a>japan</a>
+                <a>russia</a>
+                <a>USA</a>
+                <a>france</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="active" href="#home">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+                <a href="#order">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a>+91-8475639847</a>
+                <a>prakharsingh2729@gmail.com</a>
+                <a>Pitampura,Delhi, India</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/">facebook</a>
+                <a href="https://twitter.com/home?lang=en">twitter</a>
+                <a href="https://www.instagram.com/">instagram</a>
+                <a href="https://www.linkedin.com/feed/">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2021 by <span>Prakhar Singh</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
